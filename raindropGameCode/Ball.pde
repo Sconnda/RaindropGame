@@ -1,12 +1,11 @@
 class Ball {
-  float x, v, a, j, diam;
+  float x, v, a, diam;
   
   Ball (float xi, float diameter) {
     x = xi;
     diam = diameter;
     v = 0;
     a = 0;
-    j = 0;
   }
   
   void display() {
